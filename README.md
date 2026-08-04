@@ -41,7 +41,7 @@ Con el objetivo de garantizar la integridad de los datos, se incorporaron las si
 * **NOT NULL** para impedir valores nulos en los campos obligatorios.
 * **UNIQUE** sobre el correo electrónico del cliente para evitar registros duplicados.
 
-Además, se utilizaron valores por defecto (DEFAULT) para asignar automáticamente el stock inicial de un producto y la fecha de una venta cuando dichos valores no son especificados durante la inserción.
+> **Nota:** Además de las restricciones mencionadas, se utilizaron valores por defecto (`DEFAULT`) para asignar automáticamente el stock inicial de un producto y la fecha de una venta cuando estos no son especificados durante la inserción.
 ---
 
 ## 3. Manipulación de datos (DML)
