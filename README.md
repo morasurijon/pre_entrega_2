@@ -40,7 +40,7 @@ Con el objetivo de garantizar la integridad de los datos, se incorporaron las si
 * **CHECK** para validar reglas de negocio, como la edad mínima del cliente, el precio mínimo del producto, el stock disponible y las categorías permitidas.
 * **NOT NULL** para impedir valores nulos en los campos obligatorios.
 * **UNIQUE** sobre el correo electrónico del cliente para evitar registros duplicados.
-* 
+
 Además, se utilizaron valores por defecto (DEFAULT) para asignar automáticamente el stock inicial de un producto y la fecha de una venta cuando dichos valores no son especificados durante la inserción.
 ---
 
