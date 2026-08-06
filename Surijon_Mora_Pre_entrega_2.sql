@@ -30,10 +30,10 @@ CREATE TABLE venta (
 	fecha_venta TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
 	CONSTRAINT fk_producto
-		FOREIGN KEY (producto_id) REFERENCES producto(producto_id),
+		FOREIGN KEY (producto_id) REFERENCES producto(producto_id) ON DELETE CASCADE,
 
 	CONSTRAINT fk_cliente
-		FOREIGN KEY (cliente_id) REFERENCES cliente(cliente_id)
+		FOREIGN KEY (cliente_id) REFERENCES cliente(cliente_id) ON DELETE CASCADE
 );
 
 -- Insercion de datos (DML)
