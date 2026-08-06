@@ -48,10 +48,6 @@ VALUES
 	('Lola', 'lola@hotmail.com', 34),
 	('Andres', 'andres98@gmail.com', 33);
 
-COMMIT;
-
-BEGIN;
-
 INSERT INTO producto (descripcion, precio, stock, categoria)
 VALUES
 	('Plato ceramica', 15.00, 2000, 'comedor y cocina'),
@@ -59,10 +55,6 @@ VALUES
 	('Cenicero', 200.00, 10, 'decoracion'),
 	('Florero', 3000.00, 4, 'decoracion'),
 	('Tabla de madera', 600.00, 44, 'comedor y cocina');
-
-COMMIT;
-
-BEGIN;
 
 INSERT INTO venta (producto_id, cliente_id)
 VALUES
