@@ -1,5 +1,7 @@
 -- Creacion de tablas (DDL)
 
+CREATE DATABASE retail_project;
+
 DROP TABLE IF EXISTS cliente;
 
 CREATE TABLE cliente (
@@ -78,8 +80,8 @@ UPDATE producto
 SET precio = precio * 1.10
 WHERE categoria = 'decoracion';
 
-DELETE FROM cliente
-WHERE cliente_id = 5;
+DELETE FROM venta
+WHERE venta_id = 5;
 
 -- Verificación de los datos
 
